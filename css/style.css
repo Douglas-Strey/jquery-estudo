@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --background-color: #1E2E3B;
+    --text-color: #fafafa;
+    --jquery-color: #21ABE1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: var(--background-color);
+}
+
+.logo img {
+    display: block;
+    width: 250px;
+    margin-left: 1.5rem;
+}
+
+.title {
+    margin-top: -6.5rem;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.teste-title {
+    color: var(--text-color);
+}
+
+.jquery-title {
+    padding-left: 13rem;
+    color: var(--jquery-color);
+}
+
+.description {
+    margin: 10rem;
+    color: var(--text-color);
+    text-align: justify;
+}
+
+/* Scroll bar */
+
+/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
+e 10px de altura para a barra horizontal */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+     
+/* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+::-webkit-scrollbar-track {
+    background:var(--background-color);
+}
+     
+/* aqui é a alça da barra, que demonstra a altura que você está na página
+estou colocando uma cor azul clara nela*/
+::-webkit-scrollbar-thumb {
+    background: var(--text-color);
+}
