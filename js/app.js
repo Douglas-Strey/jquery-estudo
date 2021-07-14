@@ -1,7 +1,7 @@
 function animationTitle() {
-    $("h1.teste-title").fadeIn()
+    $("h1.teste-title").fadeIn("slow");
     $("h2.jquery-title").hide().show(1000);
-    $("img.jquery-logo").hide(500).show(600);
+    $("img.jquery-logo").hide().show(600);
 
     return;
 };
