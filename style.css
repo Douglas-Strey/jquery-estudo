@@ -14,6 +14,7 @@ body {
 .logo img {
     display: block;
     width: 250px;
+    margin-left: 1.5rem;
 }
 
 .title {
@@ -31,4 +32,10 @@ body {
 .jquery-title {
     padding-left: 13rem;
     color: #21ABE1;
+}
+
+.description {
+    margin: 10rem;
+    color: #fafafa;
+    text-align: justify;
 }
