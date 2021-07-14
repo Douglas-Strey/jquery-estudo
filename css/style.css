@@ -4,6 +4,7 @@
     --background-color: #1E2E3B;
     --text-color: #fafafa;
     --jquery-color: #21ABE1;
+    --btn-color: #264952;
 }
 
 * {
@@ -45,6 +46,39 @@ body {
     color: var(--text-color);
     text-align: justify;
 }
+
+/* Buttons */
+
+.next-page button {
+    margin-top: 2rem;
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 25px;
+}
+
+.next-page button a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* Lista */
+
+.lista-empresas {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.description section a {
+    text-decoration: none;
+    font-size: 30px;
+    color: var(--text-color);
+    background-color: var(--jquery-color);
+    border-radius: 8px;
+    padding: 0 5px 0 5px;
+}
+
 
 /* Scroll bar */
 
